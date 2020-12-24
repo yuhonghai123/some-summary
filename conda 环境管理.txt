@@ -1,0 +1,8 @@
+创建环境：conda create -n your_env_name python=X.X（2.7、3.6等)
+然后激活： activate your_env_name
+安装额外的包： conda install -n your_env_name package
+关闭虚拟环境： deactivate
+删除环境： conda remove -n your_env_name --all
+删除环境中的某个包： conda remove -n your_env_name package_name
+查看环境: conda env list
+查看某个环境的包 conda list
